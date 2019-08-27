@@ -9,7 +9,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="google" content="notranslate">
-    <meta name="keywords" content="Smbands,"> 
+    
     <meta name="description" content="This is my personal blog.,Nginx 的动静分离我们通过中间件将动态请求和静态请求进行分离，减少了不必要的请求消耗和延时。
 动静分离后，即使动态服务不可用，但静态资源不会受到影响。
 应用实例1、准备环境
@@ -19,8 +19,8 @@
 角色
 主机,"> 
     <meta name="author" content="Smbands"> 
-    <link rel="alternative" href="atom.xml" title="Hexo" type="application/atom+xml"> 
-    <link rel="icon" href="/img/favicon.png"> 
+    
+    
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
     <link rel="stylesheet" href="/css/diaspora.css">
     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -124,22 +124,8 @@
             
         </div>
         
-    <div id='gitalk-container' class="comment link"
-        data-ae='false'
-        data-ci='233f35b14a13027132a1'
-        data-cs='6d0835725d353bb27b37667feaf2b32cfad65b00'
-        data-r='smbands.github.io'
-        data-o='Smbands'
-        data-a='Smbands'
-        data-d='false'
-    >查看评论</div>
-
 
     </div>
-    
-        <div class='side'>
-            <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Nginx-的动静分离"><span class="toc-number">1.</span> <span class="toc-text">Nginx 的动静分离</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#应用实例"><span class="toc-number">1.1.</span> <span class="toc-text">应用实例</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1、准备环境"><span class="toc-number">1.2.</span> <span class="toc-text">1、准备环境</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2、配置服务器"><span class="toc-number">1.3.</span> <span class="toc-text">2、配置服务器</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#2-1、在Nginx-Static主机中配置静态资源（以图片为例）"><span class="toc-number">1.3.1.</span> <span class="toc-text">2.1、在Nginx Static主机中配置静态资源（以图片为例）</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-2、在-Tomcat-Server主机中配置动态资源（以随机数为例）"><span class="toc-number">1.3.2.</span> <span class="toc-text">2.2、在 Tomcat_Server主机中配置动态资源（以随机数为例）</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-3、在Nginx-Proxy主机上配置代理，实现访问jsp和png"><span class="toc-number">1.3.3.</span> <span class="toc-text">2.3、在Nginx_Proxy主机上配置代理，实现访问jsp和png</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-4、通过代理服务器测试访问动态及静态资源"><span class="toc-number">1.3.4.</span> <span class="toc-text">2.4、通过代理服务器测试访问动态及静态资源</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-5、在Nginx-Proxy主机上将动态和静态资源合并为html文件"><span class="toc-number">1.3.5.</span> <span class="toc-text">2.5、在Nginx_Proxy主机上将动态和静态资源合并为html文件</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-6、使用浏览器测试访问，动态及静态资源能否加载在一个html文件中"><span class="toc-number">1.3.6.</span> <span class="toc-text">2.6、使用浏览器测试访问，动态及静态资源能否加载在一个html文件中</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-7、关闭静态资源的nginx服务后，发现静态内容无法访问，但动态内容可以正常浏览"><span class="toc-number">1.3.7.</span> <span class="toc-text">2.7、关闭静态资源的nginx服务后，发现静态内容无法访问，但动态内容可以正常浏览</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-8、关闭动态资源的tomcat服务后，发现动态内容无法访问，但静态内容可以正常浏览"><span class="toc-number">1.3.8.</span> <span class="toc-text">2.8、关闭动态资源的tomcat服务后，发现动态内容无法访问，但静态内容可以正常浏览</span></a></li></ol></li></ol></li></ol>
-        </div>
     
 </div>
 
